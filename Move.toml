@@ -1,0 +1,9 @@
+[package]
+name = "CrustStorage"
+version = "0.0.1"
+
+[addresses]
+crust_storage = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
